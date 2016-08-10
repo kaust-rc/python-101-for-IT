@@ -1,4 +1,4 @@
-#/usr/bin/env python
+#!/usr/bin/env python
 """
 This is homework for class 2 and shouldnt take more than 1 hour,
 but will help understand all we did in the last 2 classes
