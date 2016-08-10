@@ -11,5 +11,5 @@ def test_ping():
 		print "Ping unsuccessful"
 
 
-if __name__=="__main__":
+if __name__ == "__main__":
     test_ping()

@@ -14,38 +14,37 @@ An introduction to python, for the KAUST networking team.  Two hours per week fo
   * hello world, functions, testing
   * for loop, and indenting
   * strings, lists, slicing
-  * math module
+  * import math
 
 
 ## Week 2
 * Environment
-  * Using Atom
-  * Using git
 
 * code
-  * class, method, import, __init__.py
-  * simpleHTTPServer
-  * fabric module
+  * class
+  * method
+  * import
+  * __init__.py
 
 
 ## Week 3
 * Environment
-  * The Intrepreter and the Global Intrepreter Lock (GIL)
-  * pylint, nose, coverage
+  * pip
   * notebook, jupyter
+  * PYTHONPATH
+  * Using git
 
 * code
   * unittest
-  * numpy
   * bottle
   * requests module
+  * fabric module
 
 
 ## Week 4
 * Environment
-  *
+  * pylint, nose, coverage
+  * Using Atom
+
 
 * code
-  * multiprocess
-  * scipy
-  * pandas
