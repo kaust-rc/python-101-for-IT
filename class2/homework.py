@@ -18,8 +18,11 @@ def test_demo2():
         print "test1 failed!"
 
 
+FAILED = list()
+
 def test1():
     if myhomework.slice_list() != [2, 3, 4]:
+        FAILED.append('test1')
         print "homework1 Failed", myhomework.slice_list()
 
 
@@ -28,6 +31,7 @@ def test2():
     Note the 0, is not inside a list, while the 5 is!!
     """
     if myhomework.chop_list() != ([2, 3, 4],  0,  [5]):
+        FAILED.append('test2')
         print "homework2 Failed", myhomework.chop_list()
 
 
@@ -36,6 +40,7 @@ def test3():
     We did this on week 1
     """
     if myhomework.reverse_list() != [7, 6, 5, 4, 3, 2, 1]:
+        FAILED.append('test3')
         print "homework3 Failed", myhomework.reverse_list()
 
 
@@ -47,7 +52,8 @@ def run_all_tests():
     test1()
     test2()
     test3()
-
+    if FAILED == []:
+        print "Congrats, all tests passed"
 
 
 if __name__ == "__main__":

@@ -15,6 +15,8 @@ class Demo2(object):
 
 
 
+
+
 def slice_list():
     var = [0, 1, 2, 3, 4, 5, 6, 7]
     return "Write your code here"
