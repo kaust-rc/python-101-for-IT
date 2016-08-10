@@ -9,7 +9,7 @@ from code2 import Demo2 as demoClass
 
 
 def test_demo1():
-    if code2.demo_function != ("hello", "goodbye"):
+    if code2.demo_function() != ("hello", "goodbye"):
         print "test_demo1 Failed"
 
 
