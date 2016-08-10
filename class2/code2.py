@@ -10,6 +10,7 @@ def demo_function():
 
 
 class Demo2(object):
+    @staticmethod
     def method1():
         return 1234
 
